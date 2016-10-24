@@ -45,9 +45,9 @@ table {
 
 /*overall style*/
 body{
-  background: #2c383d;
-  color: #92b9c9;
-  font: 300 18px/24px "Roboto",Helvetica,Arial,sans-serif;
+  background: #26394d;
+  color: #778695;
+  font: 300 24px/36px "Roboto",Helvetica,Arial,sans-serif;
 }
 /*layout info*/
 /*grid*/
@@ -56,10 +56,87 @@ body{
 		 -moz-box-sizing: border-box;
 					box-sizing: border-box;
 }
+.container{
+	width: 960px;
+	margin: 0 auto;
+}
+.main-page{
+	width: 710px;
+	float: right;
+}
+/*clearfix*/
+
+/*header*/
+header{
+	height: 250px;
+}
+header.logo-img{
+	border-radius: 50%;
+	border: 2px solid black;
+}
+.nameplate{
+	float: right;
+	width: 710px;
+	margin: 50px 20px 20px 20px;
+}
 /*aside*/
 .left-sidebar{
 	float: left;
-	width: 200px;
-	background: black;
+	width: 250px;
 }
-/*clearfix*/
+.sidebar-nav{
+	padding: 0 auto;
+}
+.sidebar-nav ul{
+	margin: 15px auto;
+}
+.sidebar-nav li{
+}
+.sidebar-nav a{
+	display: block;
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+	width: 200px;
+	height: 45px;
+	margin: 0 25px;
+	text-align: center;
+	background: linear-gradient(to Right, #3C5064,#162A40);
+}
+.sidebar-nav li:first-child a{
+	border-top: 2px solid black;
+	border-radius: 15px 15px 0 0;
+}
+.sidebar-nav li:last-child a{
+	border-bottom: 2px solid black;
+	border-radius: 0 0 15px 15px;
+}
+/*footer*/
+.primary-footer{
+	clear: both;
+	text-align: right;
+}
+/*typhography*/
+h1{
+	font: 700 90px/120px "Roboto Slab",helvetica,arial,sans-serif;
+}
+h2{
+
+}
+h3{
+
+}
+/*links*/
+a{
+	color: #778695;
+	text-decoration: none;
+}
+a:hover{
+	color: #bca27c;
+	text-decoration: none;
+}
+/*home*/
+.main-page article{
+	margin: 0 10px 30px 10px;
+	border-radius: 10px;
+	background: #e6d2b4;
+}
