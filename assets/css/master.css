@@ -46,8 +46,6 @@ table {
 /*overall style*/
 body{
   background: #26394d;
-  color: #778695;
-  font: 300 24px/36px "Roboto",Helvetica,Arial,sans-serif;
 }
 /*layout info*/
 /*grid*/
@@ -60,9 +58,23 @@ body{
 	width: 960px;
 	margin: 0 auto;
 }
+.left-sidebar{
+	float: left;
+	width: 250px;
+}
 .main-page{
 	width: 710px;
 	float: right;
+}
+.full-width{
+  width: 690px;
+  margin: 0 10px 30px 10px;
+
+}
+.half-width{
+  width: 345px;
+  float: left;
+  margin: 0 5px 0px 5px;
 }
 /*clearfix*/
 
@@ -70,25 +82,25 @@ body{
 header{
 	height: 250px;
 }
-header.logo-img{
+.logo-img{
+  float: left;
 	border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  margin: 50px;
 	border: 2px solid black;
 }
 .nameplate{
 	float: right;
 	width: 710px;
-	margin: 50px 20px 20px 20px;
+	padding: 50px 20px 20px 20px;
 }
 /*aside*/
-.left-sidebar{
-	float: left;
-	width: 250px;
-}
 .sidebar-nav{
 	padding: 0 auto;
 }
 .sidebar-nav ul{
-	margin: 15px auto;
+	margin: 0 auto;
 }
 .sidebar-nav li{
 }
@@ -101,6 +113,11 @@ header.logo-img{
 	margin: 0 25px;
 	text-align: center;
 	background: linear-gradient(to Right, #3C5064,#162A40);
+  text-transform: uppercase;
+  vertical-align: middle;
+}
+.sidebar-nav a:hover{
+  background: linear-gradient(to Right, #9A7F57,#62461C);
 }
 .sidebar-nav li:first-child a{
 	border-top: 2px solid black;
@@ -117,13 +134,16 @@ header.logo-img{
 }
 /*typhography*/
 h1{
-	font: 700 90px/120px "Roboto Slab",helvetica,arial,sans-serif;
+	font: 700 72px/96px "Roboto Slab",helvetica,arial,sans-serif;
 }
 h2{
-
+  font: 400 48px/64px "Roboto Slab",helvetica,arial,sans-serif;
 }
 h3{
-
+  font: 700 36px/48px "Roboto",helvetica,arial,sans-serif;
+}
+h4{
+  font: 400 27px/36px "Roboto",helvetica,arial,sans-serif;
 }
 /*links*/
 a{
@@ -136,7 +156,13 @@ a:hover{
 }
 /*home*/
 .main-page article{
-	margin: 0 10px 30px 10px;
-	border-radius: 10px;
+  border-radius: 10px;
 	background: #e6d2b4;
+  padding: 5px 10px 10px 10px;
+}
+
+/*about-me*/
+.facts {
+  border: 2px solid black;
+  border-radius: 10px;
 }
