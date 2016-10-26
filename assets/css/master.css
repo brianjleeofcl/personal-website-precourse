@@ -147,17 +147,22 @@ h3{
   font: 400 32px/48px "Roboto Slab",helvetica,arial,sans-serif;
 }
 h4{
-  font: 400 27px/36px "Roboto Slab",helvetica,arial,sans-serif;
+  font: 400 28px/42px "Roboto Slab",helvetica,arial,sans-serif;
+}
+h5{
+  font: 500 24px/36px "Roboto",helvetica,arial,sans-serif;
 }
 p{
   font: 300 16px/24px "Roboto",helvetica,arial,sans-serif;
 }
 strong{
-  text-decoration: underline;
   font-weight: bolder;
 }
 strong:hover{
   color: #bca27c;
+}
+small{
+  font: 300 12px/18px "Roboto",helvetica,arial,sans-serif;
 }
 /*links*/
 a{
@@ -183,4 +188,20 @@ a:hover{
 ul{
   background:
   list-style-type: none;
+}
+
+/*aspirations*/
+figure{
+  border: 1px solid #76A6D4;
+  padding: 5px;
+  margin: 15px;
+}
+figure img{
+  width: 628px;
+  height: auto;
+}
+figcaption{
+  text-align: center;
+  font: 300 12px/18px "Roboto",helvetica,arial,sans-serif;
+  font-style: italic;
 }
