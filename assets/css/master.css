@@ -43,9 +43,11 @@ table {
 	border-spacing: 0;
 }
 
-/*overall style*/
+/*default style*/
 body{
-  background: #26394d;
+  background: #1D262E;
+  font: 300 16px/24px "Roboto",Helvetica,arial,sans-serif;
+  color: #6885A0;
 }
 /*layout info*/
 /*grid*/
@@ -74,7 +76,10 @@ body{
 .half-width{
   width: 345px;
   float: left;
-  margin: 0 5px 0px 5px;
+  margin: 0 5px 10px 5px;
+}
+.half-width-right{
+  float: right;
 }
 /*clearfix*/
 
@@ -88,12 +93,14 @@ header{
   height: 150px;
   width: 150px;
   margin: 50px;
-	border: 2px solid black;
 }
 .nameplate{
 	float: right;
 	width: 710px;
 	padding: 50px 20px 20px 20px;
+}
+.nameplate h1{
+  color: #76A6D4;
 }
 /*aside*/
 .sidebar-nav{
@@ -106,25 +113,22 @@ header{
 }
 .sidebar-nav a{
 	display: block;
-	border-left: 2px solid black;
-	border-right: 2px solid black;
-	width: 200px;
-	height: 45px;
-	margin: 0 25px;
-	text-align: center;
-	background: linear-gradient(to Right, #3C5064,#162A40);
-  text-transform: uppercase;
-  vertical-align: middle;
+	width: 220px;
+	height: 55px;
+	margin: 0 15px;
+  padding: 5px auto;
+  text-transform: capitalize;
+	background: linear-gradient(to Right,#3C5064,#090C10);
+  text-align: center;
+  font: 400 30px/45px "Roboto Slab",helvetica,arial,sans-serif;
 }
 .sidebar-nav a:hover{
-  background: linear-gradient(to Right, #9A7F57,#62461C);
+  background: linear-gradient(to Right, #9A7F58,#18140C);
 }
 .sidebar-nav li:first-child a{
-	border-top: 2px solid black;
 	border-radius: 15px 15px 0 0;
 }
 .sidebar-nav li:last-child a{
-	border-bottom: 2px solid black;
 	border-radius: 0 0 15px 15px;
 }
 /*footer*/
@@ -134,35 +138,49 @@ header{
 }
 /*typhography*/
 h1{
-	font: 700 72px/96px "Roboto Slab",helvetica,arial,sans-serif;
+	font: 400 72px/96px "Roboto Slab",helvetica,arial,sans-serif;
 }
 h2{
-  font: 400 48px/64px "Roboto Slab",helvetica,arial,sans-serif;
+  font: 500 48px/64px "Roboto",helvetica,arial,sans-serif;
 }
 h3{
-  font: 700 36px/48px "Roboto",helvetica,arial,sans-serif;
+  font: 400 32px/48px "Roboto Slab",helvetica,arial,sans-serif;
 }
 h4{
-  font: 400 27px/36px "Roboto",helvetica,arial,sans-serif;
+  font: 400 27px/36px "Roboto Slab",helvetica,arial,sans-serif;
+}
+p{
+  font: 300 16px/24px "Roboto",helvetica,arial,sans-serif;
+}
+strong{
+  text-decoration: underline;
+  font-weight: bolder;
+}
+strong:hover{
+  color: #bca27c;
 }
 /*links*/
 a{
-	color: #778695;
+	color: #6885A0;
 	text-decoration: none;
 }
 a:hover{
-	color: #bca27c;
+	color: #F6D19A;
 	text-decoration: none;
 }
 /*home*/
 .main-page article{
   border-radius: 10px;
-	background: #e6d2b4;
+	background: #090C10;
   padding: 5px 10px 10px 10px;
+  color: #6885A0;
+}
+.article-heading{
+  color: #76A6D4;
 }
 
 /*about-me*/
-.facts {
-  border: 2px solid black;
-  border-radius: 10px;
+ul{
+  background:
+  list-style-type: none;
 }
