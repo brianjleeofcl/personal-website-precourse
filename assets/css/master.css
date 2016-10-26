@@ -77,9 +77,11 @@ body{
   width: 345px;
   float: left;
   margin: 0 5px 10px 5px;
+  clear: left;
 }
 .half-width-right{
   float: right;
+  clear: right;
 }
 /*clearfix*/
 
@@ -141,7 +143,7 @@ h1{
 	font: 400 72px/96px "Roboto Slab",helvetica,arial,sans-serif;
 }
 h2{
-  font: 500 48px/64px "Roboto",helvetica,arial,sans-serif;
+  font: 700 48px/64px "Roboto",helvetica,arial,sans-serif;
 }
 h3{
   font: 400 32px/48px "Roboto Slab",helvetica,arial,sans-serif;
@@ -185,11 +187,36 @@ a:hover{
 }
 
 /*about-me*/
-ul{
-  background:
+.main-page li,
+.main-page dd{
+  background: url("pin.svg") 0 50% no-repeat;
+  background-size: 16px;
   list-style-type: none;
+  padding-left: 20px;
 }
-
+.main-page dt{
+  background: url("hash.svg") 0 50% no-repeat;
+  background-size: 20px;
+  list-style-type: none;
+  font: 500 20px/30px "Roboto",helvetica,Arial,sans-serif;
+  padding-left: 25px;
+}
+.list-heading{
+  background: url("list.svg") 0 50% no-repeat;
+  fill: currentColor;
+  padding-left: 45px
+}
+.half-width figure {
+  margin: 5px 0 0 0;
+  padding: 5px;
+}
+.half-width figure img{
+  width: 313px;
+  height: auto;
+}
+.about-me .full-width{
+  margin-bottom: 10px;
+}
 /*aspirations*/
 figure{
   border: 1px solid #76A6D4;
