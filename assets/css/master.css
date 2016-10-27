@@ -105,20 +105,15 @@ header{
   color: #76A6D4;
 }
 /*aside*/
-.sidebar-nav{
-	padding: 0 auto;
-}
+
 .sidebar-nav ul{
 	margin: 0 auto;
-}
-.sidebar-nav li{
 }
 .sidebar-nav a{
 	display: block;
 	width: 220px;
 	height: 55px;
 	margin: 0 15px;
-  padding: 5px auto;
   text-transform: capitalize;
 	background: linear-gradient(to Right,#3C5064,#090C10);
   text-align: center;
@@ -176,10 +171,13 @@ a:hover{
 	text-decoration: none;
 }
 /*home*/
+.full-width h2{
+  text-align: center;
+}
 .main-page article{
   border-radius: 10px;
 	background: #090C10;
-  padding: 5px 10px 10px 10px;
+  padding: 5px 20px 10px 20px;
   color: #6885A0;
 }
 .article-heading{
@@ -203,15 +201,14 @@ a:hover{
 }
 .list-heading{
   background: url("list.svg") 0 50% no-repeat;
-  fill: currentColor;
-  padding-left: 45px
+  padding-left: 45px;
 }
 .half-width figure {
   margin: 5px 0 0 0;
   padding: 5px;
 }
 .half-width figure img{
-  width: 313px;
+  width: 293px;
   height: auto;
 }
 .about-me .full-width{
@@ -221,7 +218,7 @@ a:hover{
 figure{
   border: 1px solid #76A6D4;
   padding: 5px;
-  margin: 15px;
+  margin: 10px 5px;
 }
 figure img{
   width: 628px;
