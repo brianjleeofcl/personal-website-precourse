@@ -228,3 +228,6 @@ figcaption{
   font: 300 12px/18px "Roboto",helvetica,arial,sans-serif;
   font-style: italic;
 }
+.sub-heading{
+  margin-top: 15px;
+}
